@@ -1,4 +1,4 @@
-import { Component, output } from '@angular/core';
+import { Component, output, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from "@angular/material/icon";
 import { MatToolbarModule } from "@angular/material/toolbar";
@@ -11,7 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './menu.html',
   styleUrl: './menu.scss'
 })
-export class Menu {
+export class Menu implements OnInit {
   navToggle = output<boolean>();
   handleClick() {
     this.navToggle.emit(true);
@@ -23,13 +23,31 @@ export class Menu {
   currentLanguage = this.defaultLanguage;
   constructor(private translate: TranslateService) {
     this.translate.addLangs(this.languages.map(l => l.shortForm));
-    this.translate.setFallbackLang(this.defaultLanguage);
-    this.translate.use(this.defaultLanguage);
+  }
+
+  ngOnInit() {
+    try {
+      let storedLanguage = JSON.parse(localStorage.getItem('userLanguage')!);
+      if (this.languages.some(l => l.shortForm === storedLanguage)) {
+        this.translate.setFallbackLang(storedLanguage);
+      }
+      else {
+        this.translate.setFallbackLang(this.defaultLanguage);
+        this.translate.use(this.defaultLanguage);
+      }
+    }
+    catch (e) {
+      this.translate.setFallbackLang(this.defaultLanguage);
+      this.translate.use(this.defaultLanguage);
+    }
+
+    this.currentLanguage = this.translate.getCurrentLang();
   }
 
   switchLanguage(language: string) {
     this.translate.use(language);
     this.currentLanguage = language;
+    localStorage.setItem('userLanguage', JSON.stringify(language));
   }
 
 }
