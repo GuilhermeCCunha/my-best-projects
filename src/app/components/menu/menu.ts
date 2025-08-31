@@ -30,6 +30,7 @@ export class Menu implements OnInit {
       let storedLanguage = JSON.parse(localStorage.getItem('userLanguage')!);
       if (this.languages.some(l => l.shortForm === storedLanguage)) {
         this.translate.setFallbackLang(storedLanguage);
+        this.translate.use(storedLanguage);
       }
       else {
         this.translate.setFallbackLang(this.defaultLanguage);
