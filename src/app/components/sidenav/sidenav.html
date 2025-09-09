@@ -3,7 +3,9 @@
 <mat-drawer-container class="container" autosize>
   <mat-drawer #mainNav class="sidenav">
     <mat-list>
-      <mat-list-item>Lorem ipsum</mat-list-item>
+      <mat-list-item routerLinkActive="active">
+        <a routerLink="/about">{{'Links.About' | translate }}</a>
+      </mat-list-item>
     </mat-list>
   </mat-drawer>
   <ng-content />

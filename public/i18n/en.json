@@ -3,5 +3,8 @@
   "NotFound": {
     "h2": "Page not found",
     "p": "The page that you are looking for does not exist." 
+  },
+  "Links": {
+    "About": "About"
   } 
 }
