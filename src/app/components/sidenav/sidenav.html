@@ -3,8 +3,18 @@
 <mat-drawer-container class="container" autosize>
   <mat-drawer #mainNav class="sidenav">
     <mat-list>
+      <mat-list-item routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/">
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </a>
+      </mat-list-item>
       <mat-list-item routerLinkActive="active">
-        <a routerLink="/about">{{'Links.About' | translate }}</a>
+        <a routerLink="/about">
+          <mat-icon>info</mat-icon>
+          <span>{{'Links.About' | translate }}</span>
+        </a>
       </mat-list-item>
     </mat-list>
   </mat-drawer>
