@@ -6,5 +6,12 @@
   },
   "Links": {
     "About": "About"
-  } 
+  },
+  "Home": {
+    "card": {
+      "LanguageUsed": "Language used",
+      "details": "View Details"
+    },
+    "noProjects": "No projects available."
+  }
 }
