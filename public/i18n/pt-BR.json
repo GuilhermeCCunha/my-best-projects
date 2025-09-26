@@ -5,7 +5,8 @@
     "p": "A página que você está procurando não existe." 
   },
   "Links": {
-    "About": "Sobre"
+    "home": "Início",
+    "about": "Sobre"
   },
   "Home": {
     "card": {

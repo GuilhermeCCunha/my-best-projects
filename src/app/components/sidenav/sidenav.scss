@@ -26,6 +26,18 @@ a:link {
   text-decoration: none;
 }
 
+mat-list-item {
+  border-radius: 10px;
+}
+
+mat-list-item:has(a:hover) {
+  background-color: #7D7D7D4D;
+}
+
 .active {
-  background-color: #7D7D7D4D
+  background-color: #7D7D7D4D;
+
+  a {
+    font-weight: 500;
+  }
 }
