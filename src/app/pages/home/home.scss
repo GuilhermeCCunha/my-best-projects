@@ -15,4 +15,16 @@
     position: absolute;
     bottom: 0;
   }
+
+  p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stars {
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    margin-right: 3.5%;
+  }
 }

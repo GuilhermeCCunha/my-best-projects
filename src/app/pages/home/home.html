@@ -14,6 +14,10 @@
             {{ 'Home.card.LanguageUsed' | translate}}: {{
             project.language}}
           </small>
+          <small class="stars">
+            <mat-icon fontSet="material-icons-round">star_border</mat-icon>
+            <span>{{project.stargazers_count}}</span>
+          </small>
         </p>
       </mat-card-content>
       <mat-card-actions>
