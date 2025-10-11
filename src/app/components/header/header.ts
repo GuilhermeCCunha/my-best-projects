@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { AfterViewChecked, Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -7,6 +8,11 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
-export class Header {
+export class Header implements AfterViewChecked {
+
+  constructor(protected router: Router) { }
+
+  ngAfterViewChecked(): void { }
+
 
 }
