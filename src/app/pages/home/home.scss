@@ -8,6 +8,13 @@
   gap: 25px;
 }
 
+.no-projects {
+  color: var(--mat-sys-error);
+  text-align: center;
+  font-size: large;
+  margin-top: 12.5%;
+}
+
 .card {
   min-height: 230px;
 
