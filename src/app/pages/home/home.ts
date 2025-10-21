@@ -5,10 +5,11 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { TranslateModule } from '@ngx-translate/core';
 import { MatIconModule } from '@angular/material/icon';
+import { Loading } from "../../components/loading/loading";
 
 @Component({
   selector: 'app-home',
-  imports: [MatCardModule, MatButtonModule, TranslateModule, MatIconModule],
+  imports: [MatCardModule, MatButtonModule, TranslateModule, MatIconModule, Loading],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
