@@ -15,5 +15,8 @@
       "details": "Ver Detalhes"
     },
     "noProjects": "Nenhum projeto disponível."
+  },
+  "About": {
+    "title": "Sobre este site"
   }
 }

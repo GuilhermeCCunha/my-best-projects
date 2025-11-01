@@ -15,5 +15,8 @@
       "details": "View Details"
     },
     "noProjects": "No projects available."
+  },
+  "About": {
+    "title": "About this website"
   }
 }
