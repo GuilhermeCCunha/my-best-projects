@@ -17,6 +17,10 @@
     "noProjects": "Nenhum projeto disponível."
   },
   "About": {
-    "title": "Sobre este site"
+    "title": "Sobre este site",
+    "intro": {
+      "p1": "Este site foi criado com o framework Angular e também com os componentes do Angular Material.",
+      "p2": "Este site é uma vitrine dos meus melhores projetos obtidos dinamicamente consumindo dados da API do GitHub."
+    }
   }
 }

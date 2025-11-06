@@ -17,6 +17,10 @@
     "noProjects": "No projects available."
   },
   "About": {
-    "title": "About this website"
+    "title": "About this website",
+    "intro": {
+      "p1": "This website was created using the Angular framework and also Angular Material components.",
+      "p2": ""
+    }
   }
 }
