@@ -20,7 +20,7 @@
     "title": "About this website",
     "intro": {
       "p1": "This website was created using the Angular framework and also Angular Material components.",
-      "p2": ""
+      "p2": "This website is a showcase of my best projects, dynamically obtained by consuming data from the GitHub API."
     }
   }
 }
