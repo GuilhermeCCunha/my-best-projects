@@ -4,6 +4,15 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Features
 
+## Tech Stack
+
+- Angular
+- Angular Material
+- TypeScript
+- Sass
+- ngx-translate
+- Back-end: GitHub REST API
+
 ## Development server
 
 To start a local development server, run:
