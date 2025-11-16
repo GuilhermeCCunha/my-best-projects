@@ -1,5 +1,9 @@
 # My Best Projects
 
+[![Vercel Deploy][vercel-status]][vercel-url]
+[![GitHub repo size][github-img]][github-url]
+[![GitHub last commit][github-commit]][github-url]
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
 ## Features
@@ -72,3 +76,9 @@ For more information on using the Angular CLI, including detailed command refere
 ## Author
 
 - GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
+
+[vercel-status]: https://deploy-badge.vercel.app/vercel/my-best-projects?style=flat-square
+[vercel-url]: https://my-best-projects.vercel.app/
+[github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/my-best-projects?logo=github&style=flat-square
+[github-url]: https://github.com/GuilhermeCCunha/my-best-projects
+[github-commit]: https://img.shields.io/github/last-commit/GuilhermeCCunha/my-best-projects?logo=github&style=flat-square
