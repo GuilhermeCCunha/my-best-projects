@@ -33,7 +33,14 @@
   font-size: medium;
   text-align: justify;
   width: 95%;
+
   @media (max-width: 600px) {
     text-align: center;
+  }
+}
+
+@supports(-moz-appearance:none) {
+  .title {
+    margin-bottom: 24px;
   }
 }
