@@ -77,6 +77,15 @@ For more information on using the Angular CLI, including detailed command refere
 
 - GitHub: [@GuilhermeCCunha](https://github.com/GuilhermeCCunha)
 
+## Show your support
+
+Please ⭐️ this repository if you liked it!
+
+## License
+
+Copyright © 2025 [Guilherme Cunha](https://github.com/GuilhermeCCunha).<br />
+This project is [MIT](https://github.com/GuilhermeCCunha/my-best-projects/blob/main/LICENSE) licensed.
+
 [vercel-status]: https://deploy-badge.vercel.app/vercel/my-best-projects?style=flat-square
 [vercel-url]: https://my-best-projects.vercel.app/
 [github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/my-best-projects?logo=github&style=flat-square
