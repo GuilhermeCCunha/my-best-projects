@@ -8,6 +8,8 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Features
 
+- Dynamic language switching
+
 ## Tech Stack
 
 - Angular
