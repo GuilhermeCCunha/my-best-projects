@@ -6,9 +6,12 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
+This website is a showcase of my best projects
+
 ## Features
 
 - Dynamic language switching
+- Light/dark themes based on system preference
 
 ## Tech Stack
 
