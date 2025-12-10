@@ -24,6 +24,9 @@ This website is a showcase of my best projects
 
 ## Demonstration
 
+### Changing Language
+
+![my_best_projects_changing_language_demonstration](https://github.com/user-attachments/assets/8f757f18-9c1d-4668-81af-343f6ceb6ecb)
 
 ## Development server
 
