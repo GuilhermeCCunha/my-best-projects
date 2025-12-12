@@ -28,6 +28,16 @@ This website is a showcase of my best projects
 
 ![my_best_projects_changing_language_demonstration](https://github.com/user-attachments/assets/8f757f18-9c1d-4668-81af-343f6ceb6ecb)
 
+## Screenshots
+
+### Light mode
+
+<img alt="my_best_projects_light_mode" src="https://github.com/user-attachments/assets/3c5e619f-56ef-4114-9734-69249a883b59" />
+
+### Dark mode
+
+<img alt="my_best_projects_dark_mode" src="https://github.com/user-attachments/assets/e7f7b197-0fba-4533-964f-67909258c086" />
+
 ## Development server
 
 To start a local development server, run:
