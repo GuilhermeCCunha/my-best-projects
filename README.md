@@ -28,6 +28,10 @@ This website is a showcase of my best projects
 
 ![my_best_projects_changing_language_demonstration](https://github.com/user-attachments/assets/8f757f18-9c1d-4668-81af-343f6ceb6ecb)
 
+### Navigating Between Pages
+
+![my_best_projects_navigating_between_pages_demonstration](https://github.com/user-attachments/assets/1aaeacd6-3e35-41f2-9d69-dc133b8661bd)
+
 ## Screenshots
 
 ### Light mode
