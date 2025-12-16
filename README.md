@@ -42,6 +42,20 @@ This website is a showcase of my best projects
 
 <img alt="my_best_projects_dark_mode" src="https://github.com/user-attachments/assets/e7f7b197-0fba-4533-964f-67909258c086" />
 
+## Getting Started
+
+Clone or download zip file:
+
+```bash
+git clone https://github.com/GuilhermeCCunha/my-best-projects.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
 ## Development server
 
 To start a local development server, run:
