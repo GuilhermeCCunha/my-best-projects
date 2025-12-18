@@ -56,12 +56,21 @@ Install dependencies:
 npm install
 ```
 
+To use ng commands like ng new, ng serve, or ng generate, you must have the Angular CLI installed on your system.
+
+```bash
+npm install -g @angular/cli@20.1.5
+```
+For more information, see https://angular.dev/cli/.
+
 ## Development server
 
 To start a local development server, run:
 
 ```bash
 ng serve
+# or
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
