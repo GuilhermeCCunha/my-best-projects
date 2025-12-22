@@ -1,4 +1,7 @@
 # My Best Projects
+🌏
+English |
+[**Português**][readme-pt-br]
 
 [![Vercel Deploy][vercel-status]][vercel-url]
 [![GitHub repo size][github-img]][github-url]
@@ -7,6 +10,23 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
 This website is a showcase of my best projects
+
+## Table of contents
+
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Demonstration](#demonstration)
+  * [Changing Language](#changing-language)
+  * [Navigating Between Pages](#navigating-between-pages)
+* [Screenshots](#screenshots)
+  * [Light mode](#light-mode)
+  * [Dark mode](#dark-mode)
+* [Getting Started](#getting-started)
+* [Routes](#routes)
+* [Additional Resources](#additional-resources) 
+* [Author](#author)
+* [Show your support](#show-your-support)
+* [License](#license)
 
 ## Features
 
@@ -110,6 +130,7 @@ Please ⭐️ this repository if you liked it!
 Copyright © 2025 [Guilherme Cunha](https://github.com/GuilhermeCCunha).<br />
 This project is [MIT](https://github.com/GuilhermeCCunha/my-best-projects/blob/main/LICENSE) licensed.
 
+[readme-pt-br]: https://github.com/GuilhermeCCunha/my-best-projects/blob/main/README.pt-br.md
 [vercel-status]: https://deploy-badge.vercel.app/vercel/my-best-projects?style=flat-square
 [vercel-url]: https://my-best-projects.vercel.app/
 [github-img]: https://img.shields.io/github/repo-size/GuilhermeCCunha/my-best-projects?logo=github&style=flat-square
