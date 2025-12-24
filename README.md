@@ -22,6 +22,8 @@ This website is a showcase of my best projects
   * [Light mode](#light-mode)
   * [Dark mode](#dark-mode)
 * [Getting Started](#getting-started)
+* [Development server](#development-server)
+* [Building](#building)
 * [Routes](#routes)
 * [Additional Resources](#additional-resources) 
 * [Author](#author)
@@ -109,7 +111,7 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Routes
 
-_/_ - homepage displays a list of  starred GitHub projects 
+_/_ - homepage displays a list of starred GitHub projects 
 
 _/about_ - page with information about the website
 
