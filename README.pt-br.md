@@ -16,8 +16,8 @@ Este site é uma vitrine dos meus melhores projetos
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Demonstração](#demonstração)
-  * [Changing Language](#changing-language)
-  * [Navigating Between Pages](#navigating-between-pages)
+  * [Trocando o idioma](#trocando-o-idioma)
+  * [Navegando entre as páginas](#navegando-entre-as-páginas)
 * [Capturas de Tela](#capturas-de-tela)
   * [Modo claro](#modo-claro)
   * [Modo escuro](#modo-escuro)
@@ -46,11 +46,11 @@ Este site é uma vitrine dos meus melhores projetos
 
 ## Demonstração
 
-### Changing Language
+### Trocando o idioma
 
 ![my_best_projects_changing_language_demonstration](https://github.com/user-attachments/assets/8f757f18-9c1d-4668-81af-343f6ceb6ecb)
 
-### Navigating Between Pages
+### Navegando entre as páginas
 
 ![my_best_projects_navigating_between_pages_demonstration](https://github.com/user-attachments/assets/1aaeacd6-3e35-41f2-9d69-dc133b8661bd)
 
@@ -99,7 +99,7 @@ Assim que o servidor estiver em execução, abra seu navegador e acesse `http://
 
 ## Fazendo um build
 
-Para fazer um build do project, execute:
+Para fazer um build do projeto, execute:
 
 ```bash
 ng build
